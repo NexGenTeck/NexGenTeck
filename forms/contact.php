@@ -1,41 +1,47 @@
 <?php
-  /**
-  * Requires the "PHP Email Form" library
-  * The "PHP Email Form" library is available only in the pro version of the template
-  * The library should be uploaded to: vendor/php-email-form/php-email-form.php
-  * For more info and help: https://bootstrapmade.com/php-email-form/
-  */
+/**
+ * Requires the "PHP Email Form" library
+ * Upload path: ../assets/vendor/php-email-form/php-email-form.php
+ */
 
-  // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'contact@example.com';
+$receiving_email_address = 'nexgenteckcom@gmail.com'; // change this
 
-  if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
-    include( $php_email_form );
-  } else {
-    die( 'Unable to load the "PHP Email Form" Library!');
-  }
+if (!file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php')) {
+  die('Unable to load the "PHP Email Form" Library!');
+}
+include $php_email_form;
 
-  $contact = new PHP_Email_Form;
-  $contact->ajax = true;
-  
-  $contact->to = $receiving_email_address;
-  $contact->from_name = $_POST['name'];
-  $contact->from_email = $_POST['email'];
-  $contact->subject = $_POST['subject'];
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+  die('Invalid request method.');
+}
 
-  // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  /*
-  $contact->smtp = array(
-    'host' => 'example.com',
-    'username' => 'example',
-    'password' => 'pass',
-    'port' => '587'
-  );
-  */
+$name    = trim($_POST['name'] ?? '');
+$contact = trim($_POST['contact'] ?? '');
+$email   = trim($_POST['email'] ?? '');
+$subject = trim($_POST['subject'] ?? '');
+$message = trim($_POST['message'] ?? '');
 
-  $contact->add_message( $_POST['name'], 'From');
-  $contact->add_message( $_POST['email'], 'Email');
-  $contact->add_message( $_POST['message'], 'Message', 10);
+if ($name === '' || $email === '' || $message === '') {
+  die('Please fill in all required fields.');
+}
 
-  echo $contact->send();
+if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+  die('Invalid email address.');
+}
+
+$mail = new PHP_Email_Form;
+$mail->ajax = true;
+
+$mail->to = $receiving_email_address;
+$mail->from_name = $name;
+$mail->from_email = $email;
+$mail->subject = ($subject !== '') ? $subject : 'New Contact Form Submission';
+
+$mail->add_message($name, 'From');
+$mail->add_message($contact, 'Contact');
+$mail->add_message($email, 'Email');
+$mail->add_message($message, 'Message', 10);
+
+echo $mail->send();
 ?>
+

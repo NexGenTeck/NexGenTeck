@@ -1,0 +1,318 @@
+   </section><!-- /Stats Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Featured Services<br></p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-5">
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/services-1.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-activity"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                  <h3>They do not know NGT</h3>
+                </a>
+                <p>They provide without fail for what is attainable, leaving no greater need unmet. Even when challenges arise, they face them with resolve and uphold what is right.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/services-2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-broadcast"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                  <h3>The advantages they provide</h3>
+                </a>
+                <p>They act with transparency and fairness. Simplicity guides their approach, and they take responsibility for challenges without causing harm or neglecting important matters.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/services-3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-easel"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Ledo Market</h3>
+                </a>
+                <p>They provide what is needed without exception. They pursue solutions even in difficult situations. They act with purpose, ensuring that value is created while avoiding corruption or neglect.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section light-background">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <div class="container">
+
+        <ul class="nav nav-tabs row  d-flex" data-aos="fade-up" data-aos-delay="100">
+          <li class="nav-item col-3">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+              <i class="bi bi-binoculars"></i>
+              <h4 class="d-none d-lg-block">The approach of NGT</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+              <i class="bi bi-box-seam"></i>
+              <h4 class="d-none d-lg-block">Originating from the current NGT</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
+              <i class="bi bi-brightness-high"></i>
+              <h4 class="d-none d-lg-block">Reveal the essence of NGT</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
+              <i class="bi bi-command"></i>
+              <h4 class="d-none d-lg-block">The node that is ours</h4>
+            </a>
+          </li>
+        </ul><!-- End Tab Nav -->
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="tab-pane fade active show" id="features-tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>They provide dignified satisfaction, ensuring that the essential needs of the body are properly met.</h3>
+                <p class="fst-italic">
+                  They engage fully in their work, embracing effort and challenge, knowing that dedication leads to meaningful results and growth.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i>
+                    <spab>They work diligently to gain meaningful benefits from their efforts.</spab>
+                  </li>
+                  <li><i class="bi bi-check2-all"></i> <span>They endure challenges while pursuing what brings them satisfaction.</span>.</li>
+                  <li><i class="bi bi-check2-all"></i> <span>They work diligently to achieve meaningful results. They endure challenges and strive for satisfaction, avoiding empty effort and focusing on what truly matters.</span></li>
+                </ul>
+                <p>
+                  They work diligently to achieve meaningful results. They face challenges with resilience, seeking satisfaction while avoiding unnecessary pain or empty effort. They act responsibly, maintaining integrity and avoiding actions that cause harm or neglect.
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/working-1.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content Item -->
+
+          <div class="tab-pane fade" id="features-tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>They address obligations responsibly, resolving issues without causing further complications</h3>
+                <p>
+                  They work with dedication to achieve meaningful results. They face challenges with resilience, seeking satisfaction while avoiding unnecessary pain or empty effort. They act responsibly, maintaining integrity and avoiding actions that cause harm or neglect
+                </p>
+                <p class="fst-italic">
+                  They commit fully to their work, embracing effort and challenge, knowing that dedication leads to meaningful results and growth.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> <span>They work diligently to gain meaningful results from their efforts.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>They face challenges with resilience while pursuing what brings them satisfaction.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>They provide care even in difficult situations, addressing challenges responsibly. They handle hardship without complaint, ensuring that work and effort lead to meaningful results.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>They work diligently to achieve meaningful results. They face challenges with determination, seeking satisfaction while avoiding empty effort and focusing on what truly matters.</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/working-2.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content Item -->
+
+          <div class="tab-pane fade" id="features-tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>They address challenges responsibly, ensuring fairness while resolving issues, even when difficulties arise.</h3>
+                <p>
+                  They work with dedication to achieve meaningful results. They face challenges with resilience, pursuing satisfaction while avoiding unnecessary pain or empty effort. They act responsibly, maintaining integrity and avoiding actions that cause harm or neglect
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> <span>They work diligently to achieve meaningful results.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>They face challenges with determination while seeking what brings them fulfillment.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>They handle challenges responsibly, even in difficult circumstances. They address hardship without complaint, ensuring that effort leads to meaningful results.</span></li>
+                </ul>
+                <p class="fst-italic">
+                  They commit fully to their work, embracing effort and challenge, knowing that dedication leads to meaningful results and growth.
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/working-3.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content Item -->
+
+          <div class="tab-pane fade" id="features-tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>They clarify and resolve issues, even when faced with difficult challenges or complex situations.</h3>
+                <p>
+                  They work with dedication to achieve meaningful results. They face challenges with resilience, pursuing satisfaction while avoiding unnecessary pain or empty effort. They act responsibly, maintaining integrity and avoiding actions that cause harm or neglect
+                </p>
+                <p class="fst-italic">
+                  They commit fully to their work, embracing effort and challenge, knowing that dedication leads to meaningful results and growth.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> <span>They work diligently to achieve meaningful results.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>They face challenges with determination while pursuing what brings them fulfillment.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>They work diligently to achieve meaningful results. They face challenges with determination, seeking satisfaction while avoiding empty effort and focusing on what truly matters.</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/working-4.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Features Section -->
+
+    <!-- Services 2 Section -->
+    <section id="services-2" class="services-2 section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>CHECK OUR SERVICES</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item d-flex position-relative h-100">
+              <i class="bi bi-briefcase icon flex-shrink-0"></i>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">NGT Team</a></h4>
+                <p class="description">They handle even difficult or challenging situations with care, addressing problems responsibly while avoiding negligence or misuse</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item d-flex position-relative h-100">
+              <i class="bi bi-card-checklist icon flex-shrink-0"></i>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">Challenge System</a></h4>
+                <p class="description">They take care to act responsibly, performing their work diligently while seeking meaningful results and avoiding unnecessary effort</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item d-flex position-relative h-100">
+              <i class="bi bi-bar-chart icon flex-shrink-0"></i>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">Clear and understandable</a></h4>
+                <p class="description">They face challenges with focus and determination, seeking fulfillment while avoiding unnecessary pain or empty effort</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item d-flex position-relative h-100">
+              <i class="bi bi-binoculars icon flex-shrink-0"></i>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">Significant Challenges</a></h4>
+                <p class="description">They act responsibly, avoiding negligence or wrongdoing, and take accountability for their actions rather than shifting blame</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item d-flex position-relative h-100">
+              <i class="bi bi-brightness-high icon flex-shrink-0"></i>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">No One Like It</a></h4>
+                <p class="description">They confront challenges directly and hold wrongdoers accountable, upholding fairness and dignity while addressing issues thoughtfully and responsibly</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item d-flex position-relative h-100">
+              <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">Current Era</a></h4>
+                <p class="description">These things are simple and straightforward, with clear distinctions. Given freedom and opportunity, one can make thoughtful choices without constraint</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services 2 Section -->
